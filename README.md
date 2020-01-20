@@ -28,6 +28,7 @@
 - git remote -v: List remote repositories
 - git push -u <remote> <branch>: Push <branch> to <remote>, and set default upstream for <branch>
 - git fetch: Fetch changes from remote repository
+- git pull: Fetch, and then merge
   
 
 
