@@ -8,6 +8,8 @@
 - git commit: Commit changes from staging area to current branch
 - git config: Set or get configuration
 - git log: Show a history (aka "log") of project commmits
+- git log branch1..branch2: Log of commits in branch2 that don't exist in branch1
+- git log branch1...branch2: Log of commits in either branch but not both
 - git show: Show a single commit
 - git diff: Show the difference between commits, the working directory, and the staging area
 - git checkout: check out branch (update HEAD and apply changes to working directory)
@@ -15,7 +17,10 @@
 - git checkout -b: Create branch, then check it out
 - bit branch: Shows branches and which one you are currently on
 - git merge: Merge changes from different branches
-- git log: Show history of project commmits
+- git merge --abort: Abort an in-progress merge
+- git merge --no-commit --no-ff: Attempt to merge, but don't creat auto merge or ff merge
+- git branch --no-merged branch1: List branches that have unmerged commits
+- git mranch --merged branch1: List branches that have no unmerged commits
 - git stash: Stash changes from working directory
 - git stash list: List stashes
 - git stash pop: Apply stashed changes to working directory
