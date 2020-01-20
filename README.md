@@ -20,7 +20,7 @@
 - git merge --abort: Abort an in-progress merge
 - git merge --no-commit --no-ff: Attempt to merge, but don't creat auto merge or ff merge
 - git branch --no-merged branch1: List branches that have unmerged commits
-- git mranch --merged branch1: List branches that have no unmerged commits
+- git branch --merged branch1: List branches that have no unmerged commits
 - git stash: Stash changes from working directory
 - git stash list: List stashes
 - git stash pop: Apply stashed changes to working directory
