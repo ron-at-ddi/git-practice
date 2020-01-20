@@ -10,8 +10,11 @@
 - git log: Show a history (aka "log") of project commmits
 - git checkout: check out branch (update HEAD and apply changes to working directory)
 - git branch -c: Create a branch
+- git checkout -b: Create branch, then check it out
 - bit branch: Shows branches and which one you are currently on
 - git merge: Merge changes from different branches
+- git log: Show history of project commmits
+- git checkout -b: Create branch, then check it out
 
 
 ## Merge
