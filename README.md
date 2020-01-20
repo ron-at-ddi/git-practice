@@ -8,6 +8,8 @@
 - git commit: Commit changes from staging area to current branch
 - git config: Set or get configuration
 - git log: Show a history (aka "log") of project commmits
+- git show: Show a single commit
+- git diff: Show the difference between commits, the working directory, and the staging area
 - git checkout: check out branch (update HEAD and apply changes to working directory)
 - git branch -c: Create a branch
 - git checkout -b: Create branch, then check it out
@@ -26,3 +28,5 @@
 - A fast-forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then.
 
 - An automatic merge happens when the two histories have diverged, but git is able to reconcile them into one set of changes. This creates a new commit on the current branch.
+
+
